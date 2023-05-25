@@ -1,0 +1,94 @@
+* {
+    font-family: verdana, times, serif;
+    color: white;
+}
+
+h1 {
+    font-size: 8rem;
+}
+body{
+    width:100vw;
+    height:100vh;
+    background-color:black;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+
+.top {
+    display:flex;
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    height:80vh;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.navbar nav ul{
+    display:flex;
+    justify-content:space-around;
+    height:25px;
+    background-color: gray;
+    font-size: 1.25rem;
+    padding: 20px;
+    text-align: center; 
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    width:20%;
+}
+
+.why-study-header {
+    display:flex;
+    justify-content:center;
+    padding: 50px;
+}
+
+.why-study-content {
+    display:flex;
+    flex-direction: column;
+}
+
+.main-box {
+    display:flex;
+}
+
+.image, .paragraph {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 120px;
+    font-size: 1.25rem;
+    width:50%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:60px;
+}
+
+.testimonials h2{
+    font-size: 1.75rem;
+    margin:60px;
+}
+
+.testimonials p{
+    font-size: 1.5rem;
+    margin:60px;
+}
